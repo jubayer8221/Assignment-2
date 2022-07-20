@@ -3,39 +3,19 @@ body {
     margin-right: 5%;
 }
 
-/* @media screen and (max-width: 576px) {
-    .banner-text {
-
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin-left: 5%;
-    }
-
-    .banner {
-        background-color: darkslategrey;
-        border-radius: 25px;
-        display: inline;
-    }
-
-} */
-
 .banner {
     background-color: darkslategrey;
     border-radius: 25px;
     display: flex;
-    display: grid;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
-    /* border-radius: 25px;
-    justify-content: center; */
 }
 
 .banner-text {
-    /* width: 100%; */
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     margin-left: 5%;
 }
+
+
 
 #heading {
     color: aliceblue;
@@ -43,13 +23,17 @@ body {
     font-size: 50px;
 }
 
+
+
+button {
+    border: none;
+}
+
 #show-man-text {
     color: aliceblue;
     font-size: 15px;
     margin: 5%;
     text-align: justify;
-
-
 }
 
 img {
@@ -59,14 +43,11 @@ img {
 
 .live-button {
     border-radius: 10px;
-    /* display: grid;
-    grid-template-columns: repeat(1, 1fr); */
     width: 150px;
     height: 30px;
     padding-top: auto;
     margin: auto;
 }
-
 
 #red-button {
     background-color: rgb(198, 0, 0);
@@ -82,13 +63,6 @@ a {
     text-decoration: none;
     color: aliceblue;
 }
-
-/* @media screen and (width: 576px) {
-    .main {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-} */
 
 .main {
     display: grid;
@@ -123,47 +97,48 @@ a {
 }
 
 
+
 .time-chat {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* display: flex; */
 
 }
 
 .transfer-live {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
+    grid-row-gap: 20px;
 
+}
+
+h5 {
+    text-align: center;
+}
+
+main button {
+    border: 1px solid dimgray;
+    border-radius: 5px;
+    margin-left: 10%;
+    font-weight: 520;
 }
 
 .match-fight {
-    border: 1px solid goldenrod;
+    border: 1px solid dimgray;
     border-radius: 10px;
-    padding: 3%;
-    width: 300px;
-    height: 360px;
+    width: 350px;
+    height: 325px;
 }
 
 #match-photo {
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 180px;
 }
 
 .time-chat {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -191,3 +166,68 @@ li {
     margin: auto;
     color: aliceblue;
 }
+
+@media screen and (max-width: 576px) {
+    .banner {
+        background-color: darkslategrey;
+        border-radius: 25px;
+        display: block;
+    }
+
+    .banner-text {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 5%;
+    }
+
+    #heading {
+        color: aliceblue;
+        margin: auto;
+        margin-top: 20px;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .transfer-live {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: auto;
+        grid-row-gap: 10px;
+        margin: auto;
+    }
+
+    .buttons {
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 7px;
+    }
+
+    .upcoming-group {
+        background-color: darkslategrey;
+        border-radius: 10px;
+        width: 11em;
+        height: 9em;
+        margin: auto;
+    }
+
+    ul {
+        display: inline;
+        padding: 2%;
+        margin: auto;
+        text-align: center;
+    }
+
+    li {
+        margin: auto;
+        color: aliceblue;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 577px) {}
