@@ -9,6 +9,10 @@ body {
     display: flex;
 }
 
+.banner-image {
+    margin: auto;
+}
+
 .banner-text {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
@@ -126,12 +130,12 @@ main button {
 .match-fight {
     border: 1px solid dimgray;
     border-radius: 10px;
-    width: 350px;
+    width: 300px;
     height: 325px;
 }
 
 #match-photo {
-    width: 350px;
+    width: 300px;
     height: 180px;
 }
 
@@ -201,6 +205,18 @@ li {
         margin: auto;
     }
 
+    .match-fight {
+        border: 1px solid dimgray;
+        border-radius: 10px;
+        width: 350px;
+        height: 325px;
+    }
+
+    #match-photo {
+        width: 350px;
+        height: 180px;
+    }
+
     .buttons {
         margin-top: 15px;
         display: grid;
@@ -230,4 +246,78 @@ li {
     }
 }
 
-@media screen and (max-width: 577px) {}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .banner {
+        background-color: darkslategrey;
+        border-radius: 25px;
+        display: flex;
+    }
+
+    .banner-text {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        margin-left: 5%;
+    }
+
+
+
+    #heading {
+        color: aliceblue;
+        margin: 5%;
+        font-size: 50px;
+    }
+
+
+    .main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .transfer-live {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: auto;
+        grid-row-gap: 10px;
+        margin: auto;
+    }
+
+    .match-fight {
+        border: 1px solid dimgray;
+        border-radius: 10px;
+        width: 350px;
+        height: 325px;
+    }
+
+    #match-photo {
+        width: 350px;
+        height: 180px;
+    }
+
+    .buttons {
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 7px;
+    }
+
+    .upcoming-group {
+        background-color: darkslategrey;
+        border-radius: 10px;
+        width: 11em;
+        height: 9em;
+        margin: auto;
+    }
+
+    ul {
+        display: inline;
+        padding: 2%;
+        margin: auto;
+        text-align: center;
+    }
+
+    li {
+        margin: auto;
+        color: aliceblue;
+        padding: 10px;
+    }
+}
