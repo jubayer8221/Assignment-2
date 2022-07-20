@@ -1,0 +1,160 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media screen and (max-width: 576px) {
+    .banner-text {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 5%;
+    }
+
+    .banner {
+        background-color: darkslategrey;
+        border-radius: 25px;
+        display: inline;
+    }
+
+}
+
+.banner {
+    background-color: darkslategrey;
+    border-radius: 25px;
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    /* border-radius: 25px;
+    justify-content: center; */
+}
+
+.banner-text {
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin-left: 5%;
+}
+
+#heading {
+    color: aliceblue;
+    margin: 5%;
+    font-size: 50px;
+}
+
+#show-man-text {
+    color: aliceblue;
+    font-size: 15px;
+    margin: 5%;
+    text-align: justify;
+
+
+}
+
+img {
+    justify-content: center;
+    align-items: center;
+}
+
+.live-button {
+    border-radius: 10px;
+    /* display: grid;
+    grid-template-columns: repeat(1, 1fr); */
+    width: 150px;
+    height: 30px;
+    padding-top: auto;
+    margin: auto;
+}
+
+
+#red-button {
+    background-color: rgb(198, 0, 0);
+    color: aliceblue;
+    border-radius: 5px;
+    margin: auto;
+    font-weight: 600;
+    background-image: linear-gradient(red, rgb(148, 0, 0));
+
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+@media screen and (width: 576px) {
+    .main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 25px;
+
+}
+
+.upcoming-group {
+    background-color: darkslategrey;
+    border-radius: 10px;
+    width: 10em;
+    height: 10em;
+}
+
+.buttons {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 7px;
+}
+
+.body-button {
+
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 150px;
+    height: 30px;
+    padding-top: auto;
+    margin: auto;
+}
+
+.match-time {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.match-fight {
+    border: 1.5px solid goldenrod;
+    border-radius: 10px;
+    width: 14em;
+    height: 8em;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.footer {
+    background-color: darkslategrey;
+    color: aliceblue;
+    border-radius: 25px;
+}
+
+.footer h1 {
+    font-size: 40px;
+    padding: 3%;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 2%;
+}
+
+li {
+    margin: auto;
+    color: aliceblue;
+}
