@@ -46,19 +46,12 @@ button {
     text-align: justify;
 }
 
-img {
-    justify-content: center;
-    align-items: center;
-}
+
 
 .live-button {
     border-radius: 10px;
     width: 150px;
     height: 30px;
-    padding-top: auto;
-    margin: auto;
-    padding-bottom: 25px;
-    margin-bottom: 25px;
 }
 
 #red-button {
@@ -70,6 +63,11 @@ img {
     background-image: linear-gradient(red, rgb(148, 0, 0));
     padding-top: 6px;
 
+}
+
+#red-button:hover {
+    width: 160px;
+    height: 40px;
 }
 
 a {
@@ -111,6 +109,11 @@ a {
     border: none;
 }
 
+.body-button:hover {
+    width: 160px;
+    height: 50px;
+}
+
 .match-time {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -127,11 +130,11 @@ h3 {
     gap: 1em;
 }
 
+
+
 .match {
     border: 1.5px solid darkslategrey;
     border-radius: 10px;
-    /* padding: -5%; */
-
 }
 
 .match p {
@@ -210,6 +213,11 @@ li {
         grid-row-gap: 7px;
     }
 
+    .body-button:hover {
+        width: 160px;
+        height: 50px;
+    }
+
     .upcoming-group {
         background-color: darkslategrey;
         border-radius: 10px;
@@ -272,6 +280,11 @@ li {
         justify-content: center;
     }
 
+    .body-button:hover {
+        width: 160px;
+        height: 50px;
+    }
+
     .upcoming-group {
         background-color: rgb(255, 255, 255);
         border-radius: 10px;
@@ -284,4 +297,5 @@ li {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
 }
