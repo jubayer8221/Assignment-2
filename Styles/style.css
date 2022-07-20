@@ -1,7 +1,17 @@
 body {
     margin-left: 5%;
     margin-right: 5%;
+    /* font family for google font */
+    font-family: 'Crete Round', serif;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
+
+/* banner part start */
 
 .banner {
     background-color: darkslategrey;
@@ -19,21 +29,17 @@ body {
     margin-left: 5%;
 }
 
-
-
 #heading {
     color: aliceblue;
     margin: 5%;
     font-size: 50px;
 }
 
-
-
 button {
     border: none;
 }
 
-#show-man-text {
+#banner-text {
     color: aliceblue;
     font-size: 15px;
     margin: 5%;
@@ -51,6 +57,8 @@ img {
     height: 30px;
     padding-top: auto;
     margin: auto;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 #red-button {
@@ -60,7 +68,21 @@ img {
     margin: auto;
     font-weight: 600;
     background-image: linear-gradient(red, rgb(148, 0, 0));
+    padding-top: 6px;
 
+}
+
+#view-all {
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    background-color: rgb(198, 0, 0);
+    color: aliceblue;
+    font-weight: 600;
+    background-image: linear-gradient(red, rgb(148, 0, 0));
 }
 
 a {
@@ -87,6 +109,7 @@ a {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 7px;
+
 }
 
 .body-button {
@@ -100,11 +123,17 @@ a {
     margin: auto;
 }
 
+main button {
+    border: 1.5px solid dimgray;
+    border-radius: 5px;
+    margin-left: 10%;
+    font-weight: 520;
+}
 
-
-.time-chat {
+.time-chat-icon {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding: none;
 
 }
 
@@ -120,33 +149,20 @@ h5 {
     text-align: center;
 }
 
-main button {
-    border: 1px solid dimgray;
-    border-radius: 5px;
-    margin-left: 10%;
-    font-weight: 520;
-}
-
 .match-fight {
-    border: 1px solid dimgray;
-    border-radius: 10px;
-    width: 300px;
-    height: 325px;
+    border: 1.2px solid dimgray;
+    border-radius: 15px;
+    width: 17em;
 }
 
 #match-photo {
-    width: 300px;
-    height: 180px;
+    width: 100%;
 }
 
 .time-chat {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-
-
-
-
 
 .footer {
     background-color: darkslategrey;
@@ -209,7 +225,7 @@ li {
         border: 1px solid dimgray;
         border-radius: 10px;
         width: 350px;
-        height: 325px;
+        height: 340px;
     }
 
     #match-photo {
@@ -285,7 +301,7 @@ li {
         border: 1px solid dimgray;
         border-radius: 10px;
         width: 350px;
-        height: 325px;
+        height: 340px;
     }
 
     #match-photo {
@@ -296,19 +312,21 @@ li {
     .buttons {
         margin-top: 15px;
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-row-gap: 7px;
+        grid-column-gap: 7px;
+        justify-content: center;
     }
 
     .upcoming-group {
-        background-color: darkslategrey;
+        background-color: rgb(255, 255, 255);
         border-radius: 10px;
         width: 11em;
         height: 9em;
         margin: auto;
     }
 
-    ul {
+    /* ul {
         display: inline;
         padding: 2%;
         margin: auto;
@@ -319,5 +337,5 @@ li {
         margin: auto;
         color: aliceblue;
         padding: 10px;
-    }
+    } */
 }
