@@ -72,6 +72,11 @@ img {
 
 }
 
+#red-button:hover {
+    width: 160px;
+    height: 40px;
+}
+
 #view-all {
     border-radius: 10px;
     display: grid;
@@ -121,6 +126,11 @@ a {
     height: 30px;
     padding-top: auto;
     margin: auto;
+}
+
+.body-button:hover {
+    width: 160px;
+    height: 50px;
 }
 
 main button {
@@ -240,6 +250,11 @@ li {
         grid-row-gap: 7px;
     }
 
+    .body-button:hover {
+        width: 160px;
+        height: 50px;
+    }
+
     .upcoming-group {
         background-color: darkslategrey;
         border-radius: 10px;
@@ -316,6 +331,11 @@ li {
         grid-row-gap: 7px;
         grid-column-gap: 7px;
         justify-content: center;
+    }
+
+    .body-button:hover {
+        width: 160px;
+        height: 50px;
     }
 
     .upcoming-group {
